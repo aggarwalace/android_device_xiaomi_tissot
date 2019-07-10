@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/tissot/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common bliss stuff.
 $(call inherit-product, vendor/bliss/config/common.mk)
 
 # Device identifier. This must come after all inclusions
